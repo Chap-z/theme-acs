@@ -1,0 +1,74 @@
+.wrap-home {
+    padding: 50px 15px;
+    h2 {
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;
+        color: $dark-grey;
+        padding: 30px 0;
+    }
+    article {
+        margin-bottom: 40px;
+        .contour-article {
+            padding: 50px 50px;
+            -webkit-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+            box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+            img {
+                display: none;
+            }
+            h3 {
+                font-size: 20px;
+                text-align: center;
+                font-family: 'Roboto Mono', monospace;
+                color: $dark-grey;
+            }
+            .infos-post {
+                p {
+                    text-align: center;
+                    font-family: 'Lato', Arial, Helvetica, sans-serif;
+                    color: $dark-grey;
+                    font-style: italic;
+                    font-size: 16px;
+                }
+            }
+            .categories-article {
+                p,
+                a {
+                    text-align: center;
+                    font-family: 'Lato', Arial, Helvetica, sans-serif;
+                    color: $pink;
+                    font-size: 16px;
+                    transition: all 0.3s;
+                    &:hover {
+                        text-decoration: none;
+                        text-decoration: none;
+                        color: $dark-grey;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .content-post {
+                p {
+                    font-family: 'Lato', Arial, Helvetica, sans-serif;
+                    color: $dark-grey;
+                    font-size: 16px;
+                }
+            }
+            .more-info {
+                a {
+                    text-align: right;
+                    font-family: 'Roboto Mono', monospace;
+                    color: $pink;
+                    font-size: 14px;
+                    display: block;
+                    transition: all 0.3s;
+                    &:hover {
+                        text-decoration: none;
+                        color: $dark-grey;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}

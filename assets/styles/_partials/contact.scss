@@ -1,0 +1,45 @@
+.wrap-contact {
+    padding: 50px 15px;
+    h1 {
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;
+        color: $dark-grey;
+        margin-bottom: 35px;
+    }
+    .content-contact {
+        label {
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            color: $dark-grey;
+            font-size: 16px;
+            padding-bottom: 40px;
+        }
+        input,
+        textarea {
+            border: none;
+            border-bottom: 1px solid $pink;
+            color : $dark-grey;
+            max-width : 285px;
+        }
+        textarea{
+            height : 100px;
+        }
+        input[type=submit] {
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            color: $white;
+            font-size: 16px;
+            transition: all 0.3s;
+            border : none;
+            background-color: $pink;
+            padding : 10px 25px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $light-grey;
+                text-decoration: none;
+                transition: all 0.3s;
+                color: $dark-grey;
+            }
+        }
+    }
+}

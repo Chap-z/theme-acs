@@ -1,0 +1,52 @@
+.wrap-page {
+    padding: 50px 15px;
+    h1 {
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;
+        color: $dark-grey;
+        margin-bottom: 35px;
+    }
+    .authors-list {
+        list-style: none;
+        margin: 15px 15px;
+        .single-author {
+            .author-img {
+                text-align : center;
+                a {
+                    font-family: 'Lato', Arial, Helvetica, sans-serif;
+                    color: $dark-grey;
+                    font-size: 16px;
+                    padding-bottom: 40px;
+                    transition: all 0.3s;
+                    opacity : 1;
+                    img {
+                        -webkit-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+                        -moz-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+                        box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+
+                        &:hover{
+                            opacity : 0.3;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+            }
+            .author-name {
+                text-align: center;
+                padding: 15px 15px;
+                a {
+                    font-family: 'Lato', Arial, Helvetica, sans-serif;
+                    color: $pink;
+                    font-size: 16px;
+                    padding-bottom: 40px;
+                    transition: all 0.3s;
+                    &:hover{
+                        transition: all 0.3s;
+                        color:$dark-grey;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

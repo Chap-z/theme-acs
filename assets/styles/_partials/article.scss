@@ -1,0 +1,112 @@
+.wrap-article {
+    padding: 50px 15px;
+    article {
+        -webkit-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+        box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.25);
+        padding: 50px 0;
+        h1 {
+            font-size: 25px;
+            font-family: 'Roboto Mono', monospace;
+            color: $dark-grey;
+            text-align: center;
+        }
+        margin-bottom: 40px;
+        img {
+            margin: 30px auto;
+            display: block;
+        }
+        .infos-post {
+            p {
+                text-align: center;
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $dark-grey;
+                font-style: italic;
+                font-size: 16px;
+            }
+        }
+        .categories-article {
+            p,
+            a {
+                text-align: center;
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $pink;
+                font-size: 16px;
+                transition: all 0.3s;
+                &:hover {
+                    text-decoration: none;
+                    text-decoration: none;
+                    color: $dark-grey;
+                    transition: all 0.3s;
+                }
+            }
+        }
+        .content-post {
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            color: $dark-grey;
+            font-size: 16px;
+            border-bottom: 1px solid $grey;
+            padding-bottom: 40px;
+        }
+        h2 {
+            font-size: 20px;
+            font-family: 'Roboto Mono', monospace;
+            color: $dark-grey;
+        }
+        .comment-list {
+            p {
+                padding: 10px 0;
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $dark-grey;
+                font-size: 16px;
+                transition: all 0.3s;
+            }
+            a {
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $pink;
+                font-size: 16px;
+                transition: all 0.3s;
+                &:hover {
+                    text-decoration: none;
+                    text-decoration: none;
+                    color: $dark-grey;
+                    transition: all 0.3s;
+                }
+            }
+            img {
+                margin: auto 0;
+            }
+            .comment-body {
+                margin-top: 15px;
+            }
+        }
+        .comment-form {
+            margin-top: 35px;
+            p {
+                padding: 10px 0;
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $dark-grey;
+                font-size: 16px;
+                transition: all 0.3s;
+                label {
+                    display: none;
+                }
+            }
+            a {
+                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                color: $pink;
+                font-size: 16px;
+                transition: all 0.3s;
+                &:hover {
+                    text-decoration: none;
+                    text-decoration: none;
+                    color: $dark-grey;
+                    transition: all 0.3s;
+                }
+            }
+        }
+        .comment-respond {
+            margin-top: 35px;
+        }
+    }
+}

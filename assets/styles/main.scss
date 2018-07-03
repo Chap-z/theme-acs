@@ -1,0 +1,48 @@
+@import 'variables.scss';
+@import '_partials/header.scss';
+@import '_partials/footer.scss';
+@import '_partials/home.scss';
+@import '_partials/article.scss';
+@import '_partials/category.scss';
+@import '_partials/page.scss';
+@import '_partials/contact.scss';
+html {
+    background-color: $white;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark-grey;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark-grey;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark-grey;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark-grey;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark-grey;
+}
+
+p {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: $dark-grey;
+    font-size: 16px;
+}
